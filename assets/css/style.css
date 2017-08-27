@@ -1,0 +1,279 @@
+.wrap {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+.header {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  background-image: url('../img/Hero.png');
+  background-size: auto;
+  background-position: top center;
+  background-repeat: no-repeat;
+  font-family: '.PingFangTC-Regular';
+}
+.header h1 {
+  margin-top: 89px;
+  margin-bottom: 96px;
+  font-size: 40px;
+  color: #FFFFFF;
+  letter-spacing: 3.89px;
+}
+.header .zoneList {
+  background: rgba(255,255,255,0.70);
+  background-image: url('../img/icons_down.png');
+  -webkit-appearance: none;
+  background-repeat: no-repeat;
+  background-position: right;
+  border: 3px solid #FFFFFF;
+  border-radius: 3px;
+  width: 44.14%;
+  min-width: 220px;
+  height: 48px;
+  font-size: 21px;
+  line-height: 21px;
+  margin-bottom: 80px;
+  padding-left: 1%;
+  background-position-x: 97%;
+  background-position-y: 56%;
+}
+.header .zoneBox {
+  display: flex;
+  flex-flow: column wrap;
+  width: 78.125%;
+  min-width: 330px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+  border-radius: 5px;
+  /*padding: 20px 25px 18px 25px;*/
+}
+.header .zoneBox label {
+  font-family: 'AppleSystemUIFont';
+  font-size: 18px;
+  margin: 20px 0px 0px 26px;
+}
+.header .hotNowBox {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0 10px 15px 10px;
+}
+.header .hotNowBox Button {
+  font-family: '.SFNSDisplay';
+  font-size: 20px;
+  border-radius: 5px;
+  border: 0;
+  outline-style: none;
+  color: #fff;
+  line-height: 42px;
+  width: 132px;
+  margin: 14px 11.5px 3px 11.5px;
+}
+.hotZoneBtn0 {
+  background-color: #8A82CC;
+}
+.hotZoneBtn1 {
+  background-color: #FFA782;
+}
+.hotZoneBtn2 {
+  background-color: #F5D105;
+}
+.hotZoneBtn3 {
+  background-color: #559AC8;
+}
+.hotZoneBtn4 {
+  background-color: #42b983;
+}
+.header .separateLines {
+  display: flex;
+  justify-content: center;
+  width: 87.89%;
+  margin: auto;
+  border-bottom: 2px dashed rgba(85,154,200,0.4);
+  position: relative;
+  margin-top: 37px;
+}
+.header .separateLines .down {
+  position: absolute;
+  bottom: -14px;
+  border-radius: 50%;
+  border: 3px solid rgba(85,154,200,0.6);
+}
+.header .separateLines .down a {
+  display: flex;
+  background-image: url('../img/icons_down.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 3px;
+  font-size: 12px;
+  width: 12px;
+  height: 12px;
+  white-space: nowrap;
+	text-indent: 101%;
+	overflow: hidden;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  font-family: 'PingFangTC-Regular';
+  font-size: 16px;
+}
+.content .zoneTitle {
+  font-size: 36px;
+  color: #8A82CC;
+  margin-top: 76px;
+  margin-bottom: 6px;
+}
+.content .attractionsList {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 100%;
+  margin: 0 32px;
+}
+.content .attractionsList .attractions {
+  width: 464px;
+  margin: 18px 8px;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+}
+.content .attractionsList .attractions:hover {
+  box-shadow: 5px 3px 8px 0px rgba(0,0,0,0.20);
+}
+.content .attractionsList .attractions .attractionsPic {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  width: 100%;
+  height: 155px;
+}
+.content .attractionsList .attractions .attractionsPic h3 {
+  font-size: 24px;
+  color: #FFFFFF;
+  margin: 14px 22px;
+}
+.content .attractionsList .attractions .attractionsPic h4 {
+  color: #FFFFFF;
+  margin: 11px 24px;
+}
+.content .attractionsList .attractions .attractionsInfo {
+  padding: 8px 24px 12px 50px;
+  font-family: '.SFNSDisplay';
+  line-height: 32px;
+  position: relative;
+}
+.content .attractionsList .attractions .attractionsInfo .openTime {
+  list-style-image: url('../img/icons_clock.png');
+  margin-left: 0px;
+}
+.content .attractionsList .attractions .attractionsInfo .add {
+  list-style-image: url('../img/icons_pin.png');
+  margin-left: -2px;
+  text-indent: 2px;
+}
+.content .attractionsList .attractions .attractionsInfo .tel {
+  list-style-image: url('../img/icons_phone.png');
+  margin-left: -3px;
+  text-indent: 3px;
+}
+.content .attractionsList .attractions .attractionsInfo .ticketInfo {
+  list-style-image: url('../img/icons_tag.png');
+  font-family: 'PingFangTC-Regular';
+  position: absolute;
+  left: 80.603%;
+  bottom: 11px;
+}
+.num8 {
+  position: relative;
+}
+.content .attractionsList .num8 .goTop {
+  display: flex;
+  position: absolute;
+  background-image: url('../img/btn_goTop.png');
+  white-space: nowrap;
+	text-indent: 101%;
+	overflow: hidden;
+  width: 24px;
+  height: 24px;
+  bottom: 0px;
+  right: -12px;
+}
+.num6 {
+  position: relative;
+}
+.content .attractionsList .num6 .goTop {
+  display: flex;
+  position: absolute;
+  background-image: url('../img/btn_goTop.png');
+  white-space: nowrap;
+	text-indent: 101%;
+	overflow: hidden;
+  width: 24px;
+  height: 24px;
+  bottom: 0px;
+  right: -12px;
+}
+.num4 {
+  position: relative;
+}
+.content .attractionsList .num4 .goTop {
+  display: flex;
+  position: absolute;
+  background-image: url('../img/btn_goTop.png');
+  white-space: nowrap;
+	text-indent: 101%;
+	overflow: hidden;
+  width: 24px;
+  height: 24px;
+  bottom: 0px;
+  right: -12px;
+}
+.content .selectPageBar {
+  margin-bottom: 41px;
+  margin-top: 31px;
+}
+.content .selectPageBar .prev ,.content .selectPageBar .page ,.content .selectPageBar .next {
+  font-size: 14px;
+  font-family: 'AppleSystemUIFont';
+  cursor: pointer;
+}
+
+.content .selectPageBar .page {
+  padding: 12px;
+  text-decoration: none;
+}
+.content .selectPageBar .page:hover {
+  color: #559AC8;
+  font-size: 16px;
+}
+.content .selectPageBar .page:active {
+  text-decoration: underline;
+}
+.content .selectPageBar .prev, .selectPageBar .next{
+  padding: 10px;
+  text-decoration: none;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: #559AC8;
+}
+.footer h2 {
+  color: #fff;
+  margin: 20px 0 7px 0;
+}
+.footer p {
+  color: #F5D105;
+  margin: 8px 0 23px 0;
+}
+.footer p, .footer h2 {
+  font-size: 14px;
+  font-family: 'AppleSystemUIFont';
+}

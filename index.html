@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>高雄旅遊網</title>
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="wrap">
+    <div class="header">
+      <h1>高雄旅遊資訊</h1>
+      <select class="zoneList" id="zoneList">
+        <option SELECTED disabled>--請選擇行政區--</option>
+      </select>
+      <div class="zoneBox">
+        <label>熱門行政區</label>
+        <div class="hotNowBox"></div>
+      </div>
+      <div class="separateLines">
+        <div class="down"><a href="#footer">x</a></div>
+      </div>
+    </div>
+    <div class="content">
+        <h2 class="zoneTitle"></h2>
+        <div class="attractionsList"></div>
+        <div class="selectPageBar"></div>
+    </div>
+    <div class="footer" id="footer">
+        <h2>高雄旅遊網</h2>
+        <p>資料來源：高雄市政府</p>
+    </div>
+  </div>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+  <script src="assets/js/data.js"></script>
+  <!-- <script src="assets/js/all.js"></script> -->
+</body>
+</html>
